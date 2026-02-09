@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <hr>
+    <a href="table.html">Table of students</a> <br> <br>
+    <a href="list.html">List of Program</a> <br> <br>
+
+    <h2>Form for Admission Fee</h2>
+    <form action="">
+        <input type="search" placeholder="Search">
+        <hr>
+
+        <label for="">Enter your name: </label>
+        <input type="text" username="" id="" placeholder=" First name"> <br> <br>
+
+        <label for="">Enter your Father name: </label>
+        <input type="text" placeholder=" Last name"><br> <br>
+
+        <label for="">Enter your Email: </label>
+        <input type="email" placeholder=" Email"><br> <br>
+
+        <label for="">Enter your password</label>
+        <input type="password" placeholder="type your password"> <br> <br>
+
+        <label for="tel">Enter your Phone number: </label>
+        <input type="tel" placeholder="123-45-678"><br> <br>
+
+        <label for="">Your age (between 10 to 40)</label>
+        <input type="number" min="10" max="40"> <br>
+
+        <input type="radio" name="gender" id="male" value="male">Male
+        <input type="radio" name="gender" id="female" value="female">Female <br> <br>
+
+        <input type="checkbox">Check the box then go forward. <br> <br>
+
+        <label for="">Date: </label>
+        <input type="date"> <br>
+
+        <label for="">Select your Favorite Color:</label>
+        <input type="color">
+
+        <hr>
+        <h3>Select your favorite Language to Join our Academy</h3>
+        <select name="" id="">
+
+            <option value="">Python - $34.99</option>
+            <option value="">Java - $45.99</option>
+            <option value="">JavaScript - $54.99</option>
+            <option value="">C# - $39.99</option>
+            <option value="">C++ - $29.99</option>
+            <option value="">TypeScript - $49.99</option>
+            <option value="">Go - $39.99(Golang)</option>
+            <option value="">Rust - $54.99</option>
+            <option value="">Swift - $59.99.00</option>
+            <option value="">Kotlin - $64.99</option>
+            <option value="">PHP - $44.99</option>
+            <option value="">Ruby - $59.99</option>
+            <option value="">SQL - $69.99</option>
+            <option value="">R - $24.99</option>
+            <option value="">Dart - $29.99</option>
+        </select>
+
+        <br>
+        <label for="">Which time do you want to come: </label>
+        <input type="time"> <br>
+        <br>
+        <label for="">What do you think about our Academy?</label> <br>
+        <label for="">Local Time</label>
+        <input type="datetime-local"> <br>
+
+        <textarea name="" id="" placeholder="Write your comment here..." rows="10" cols="40">
+        </textarea>
+
+        <br>
+        <input type="submit" value="Register Now"> Or reset your form: <input type="reset">
+    </form>
+
+    <h3>Students Who Already Enroll:</h3>
+
+    <table border>
+        <caption><strong>Student's Detail</strong></caption>
+        <thead>
+            <!-- <caption>Student's Detail</caption> -->
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Father name</th>
+                <th>Age</th>
+                <th colspan="2">Class / Section</th>
+                <th>Language Interested</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3454</td>
+                <td>Hussain Ali</td>
+                <td>Ali Akbar</td>
+                <td>19</td>
+                <td>11</td>
+                <td>A</td>
+                <td rowspan="2">Python</td>
+            </tr>
+            <tr>
+                <td>3455</td>
+                <td>Ali Asghar</td>
+                <td>Zeshan Ali</td>
+                <td>21</td>
+                <td>12</td>
+                <td>B</td>
+
+            </tr>
+            <tr>
+                <td>3456</td>
+                <td>Juma Khan</td>
+                <td>khuda bakhsh</td>
+                <td rowspan="2">18</td>
+                <td>10</td>
+                <td rowspan="2">C</td>
+                <td>C++</td>
+            </tr>
+            <tr>
+                <td>3457</td>
+                <td>Khadim Hussain</td>
+                <td>Ali Reza</td>
+                <td>10</td>
+                <td>Rust</td>
+            </tr>
+            <tr>
+                <td>3458</td>
+                <td>Ali Murtza</td>
+                <td>Rehman Ali</td>
+                <td>17</td>
+                <td>09</td>
+                <td>A</td>
+                <td rowspan="2">Java</td>
+            </tr>
+            <tr>
+                <td>3459</td>
+                <td>Shabbir Reza</td>
+                <td>Juma Reza</td>
+                <td>16</td>
+                <td>08</td>
+                <td>B</td>
+
+            </tr>
+            <tr>
+                <td>3460</td>
+                <td>Syed Hamid</td>
+                <td>Syed Jawad</td>
+                <td>19</td>
+                <td rowspan="3">11</td>
+                <td rowspan="2">D</td>
+                <td>C#</td>
+            </tr>
+            <tr>
+                <td>3461</td>
+                <td>Ali Waris</td>
+                <td>Zeshan Haider</td>
+                <td>18</td>
+                <td rowspan="2">SQL</td>
+            </tr>
+            <tr>
+                <td>3462</td>
+                <td>Bismillah</td>
+                <td>Javed Hussain</td>
+                <td>20</td>
+                <td>C</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>3462</td>
+                <td>Abdullah</td>
+                <td>Abbas Haider</td>
+                <td>17</td>
+                <td>10</td>
+                <td>A</td>
+                <td>TypeScript</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <ol>
+        <li>HTML Input Types</li>
+        <ul>
+
+            <li>input type="button"</li>
+            <li>input type="checkbox"</li>
+            <li>input type="color"</li>
+            <li>input type="date"</li>
+            <li>input type="datetime-local"</li>
+            <li>input type="email"</li>
+            <li>input type="file"</li>
+            <li>input type="hidden"</li>
+            <li>input type="image"</li>
+            <li>input type="month"</li>
+            <li>input type="number"</li>
+            <li>input type="password"</li>
+            <li>input type="radio"</li>
+            <li>input type="range"</li>
+            <li>input type="reset"</li>
+            <li>input type="search"</li>
+            <li>input type="submit"</li>
+            <li>input type="tel"</li>
+            <li>input type="time"</li>
+            <li>input type="text"</li>
+            <li>input type="url"</li>
+            <li>input type="week"</li>
+        </ul>
+    </ol>
+
+</body>
+
+</html>
