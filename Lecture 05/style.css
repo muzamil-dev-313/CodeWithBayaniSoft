@@ -31,6 +31,10 @@
     text-transform: lowercase;
     font-size: 25px;
     padding-top: 20px;
+    word-break: break-all;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    border-left-style: dashed;
 }
 
 .para {
@@ -38,5 +42,5 @@
     color: white;
     padding: 20px;
     text-shadow: 5px 5px 10px rgb(138, 206, 49);
-    text-indent: 50px;
+    text-indent: 40px;
 }
